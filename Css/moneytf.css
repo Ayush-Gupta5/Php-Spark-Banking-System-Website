@@ -1,0 +1,45 @@
+
+.heading{
+	margin-top: 80px;
+	font-size: 60px;
+}
+
+.contain{
+	margin-top: 80px;
+	font-size: 30px;
+}
+
+.foot{
+	background-color: #0275d8;
+	color: white;
+	margin-top: 38px;
+}
+
+form{
+	margin-top: 50px;
+}
+
+input{
+	border-radius: 20px;
+	width: 300px;
+	text-align: center;
+}
+
+.btn{
+	width: 300px;
+}
+
+p{
+font-weight: bold;
+}
+button > a:hover{
+
+text-decoration: none;
+color: white;
+}
+
+button > a{
+
+text-decoration: none;
+color: white;
+}
