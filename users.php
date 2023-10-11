@@ -67,7 +67,7 @@ $str="select * from user order by id desc";
 							<td><?php echo $rs['mobile']; ?></td>
 							<td><?php echo $rs['email']; ?></td>
 							<td><?php echo $rs['acno']; ?></td>
-							<td style="color:red">&#8377; <?php echo $rs['balance']; ?></td>
+							<td style="color:Green">&#8377; <?php echo $rs['balance']; ?></td>
 							<td><a href="moneytf.php?id=<?php echo $rs['id']?>"><button class="btn btn-success">Money Transfer</button></a></td>
 						</tr>
 						<?php
