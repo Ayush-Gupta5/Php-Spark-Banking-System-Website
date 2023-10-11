@@ -36,7 +36,7 @@ $res=mysqli_query($conn,$str);
 
 		<form method="post">
 				<p>Sender A/c Number</p>
-				<input type="tel" name="sender" value="<?php echo $rs['name']." ( A/c No: ".$rs['acno'].")" ?>" readonly><p style="color:red">(balance : &#8377; <?php echo $rs['balance']?>)</p><br>
+				<input type="tel" name="sender" value="<?php echo $rs['name']." ( A/c No: ".$rs['acno'].")" ?>" readonly><p style="color:green">(balance : &#8377; <?php echo $rs['balance']?>)</p><br>
 				<input type="hidden" name="senderbal" value="<?php echo $rs['balance'] ?>">
 				<p>Receiver A/c Number</p>
 				<input type="number" name="receiver" placeholder="Receiver's Account Number" required><br><br>
