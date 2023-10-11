@@ -50,7 +50,7 @@ $res=mysqli_query($conn,$str);
 							<td><?php echo $rs['id']; ?></td>
 							<td><?php echo $rs['sender']; ?></td>
 							<td><?php echo $rs['receiver']; ?></td>
-							<td style="color:red">&#8377; <?php echo $rs['amount']; ?></td>
+							<td style="color:green">&#8377; <?php echo $rs['amount']; ?></td>
 							<td><?php echo $rs['date']; ?></td>
 						</tr>
 						
