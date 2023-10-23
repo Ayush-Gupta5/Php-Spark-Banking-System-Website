@@ -1,6 +1,8 @@
 # Spark-Banking-System-By-Php
 
-#I developed a Simple Banking System web Application for my web development internship at The Spark Foundation.
+I designed and implemented a user-friendly Basic Banking System Website, allowing seamless money transfers between user accounts and providing a comprehensive transaction history feature to track financial activities.<br><br>
+Languages: PHP, HTML, CSS and Database MYSQL.
+
 
 #Home-page
 ![Home-page](https://github.com/Ayush-Gupta5/Spark-Banking-System-By-Php/assets/143918681/a0518494-00fc-448a-b9a8-18efa5dc4757)
